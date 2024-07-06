@@ -28,10 +28,10 @@ const Portfolio = () => {
                             <p>Created a resume website which showcases education and skills.</p>
                         </div>
                     </a>
-                    <a href='http://netflix-reload.netlify.app' target="_blank" rel="noopener noreferrer">
+                    <a href='https://creatorrama.github.io/sp-clone/' target="_blank" rel="noopener noreferrer">
                         <div className="project">
-                            <h3>Netflix Clone</h3>
-                            <p>Created a Netflix Clone with normal HTML and CSS.</p>
+                            <h3>Spotify Clone</h3>
+                            <p>Created a Spotify Clone with  HTML and CSS and Javascript with all the functionalities of a music player.Great  learnings from this Project.</p>
                         </div>
                     </a>
                 </div>
