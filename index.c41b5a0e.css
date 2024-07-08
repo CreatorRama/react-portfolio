@@ -266,4 +266,10 @@ header {
     width: 60px;
   }
 }
+
+@media (width > 730px) {
+  .nav-links li a {
+    font-size: 30px;
+  }
+}
 /*# sourceMappingURL=index.c41b5a0e.css.map */
