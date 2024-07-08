@@ -10,7 +10,7 @@ const Portfolio = () => {
                     <img src={projectImage} alt="Project" />
                 </div>
                 <div className="projects-container">
-                    <a href='http://countrie-api.netlify.app' target="_blank" rel="noopener noreferrer">
+                    <a href='https://creatorrama.github.io/Rest-Countries-API-Project/' target="_blank" rel="noopener noreferrer">
                         <div className="project">
                             <h3>Rest Countries API Project</h3>
                             <p>Created an API project which fetches the information from REST API and showcases the information of each country in a card. You can go to a particular country's page and see all their details. Includes some filter and search methods.</p>
