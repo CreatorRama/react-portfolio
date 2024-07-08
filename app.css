@@ -14,6 +14,7 @@
     align-items: center;
     justify-content: center;
     text-align: center;
+    overflow: hidden;
 }
 
 header {
@@ -220,4 +221,35 @@ header {
    top: 44px;
    right: 150px;
   font-size: 10px;
+}
+@media(width>344px) and (width<=530px){
+    .navbar{
+        max-width: 645px;
+        justify-content: center;
+    }
+    .nav-links li a{
+        padding: 0;
+    }
+    header{
+        height: 15vh;
+    }
+    .logo img{
+        width: 83px;
+    }
+}
+@media (max-width: 344px) {
+    .navbar {
+        max-width: 600px; /* Adjusted max-width for very small screens */
+        justify-content: center;
+    }
+    .nav-links {
+        /* Stack links vertically */
+        align-items: flex-start; /* Center align links */
+    }
+    .nav-links li a {
+        padding: 0; /* Adjust padding as needed */
+    }
+    .logo img{
+        width: 60px;
+    }
 }
