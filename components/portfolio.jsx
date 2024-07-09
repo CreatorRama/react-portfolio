@@ -22,7 +22,7 @@ const Portfolio = () => {
                             <p>Created a Quiz App which takes quiz and displays results. Also included some more features.</p>
                         </div>
                     </a>
-                    <a href='https://creatorrama.github.io/Portfolio-Website/' target="_blank" rel="noopener noreferrer">
+                    <a href='https://creatorrama.github.io/Resume-Website/' target="_blank" rel="noopener noreferrer">
                         <div className="project">
                             <h3>Resume Website</h3>
                             <p>Created a resume website which showcases education and skills.</p>
