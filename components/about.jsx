@@ -17,7 +17,7 @@ const About = () => {
                 <img src={background} alt="Background" className="background-image" />
                 <div className="overlay">
                     <h1 className="title">AMAN PANDEY</h1>
-                    <h2 className="title">Software Developer Trainee</h2>
+                    <h2 className="title">FrontEnd Developer</h2>
                     <a href="#nextSection" className="scroll-button" onClick={scrollToNextSection}>
                         <img src={downarrow} alt="Scroll Down" height={89} />
                     </a>
