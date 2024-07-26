@@ -1,0 +1,26 @@
+/* src/components/Typewriter.css */
+
+.typewriter {
+    font-family: 'Courier New', Courier, monospace; /* Typewriter-like font */
+    font-size: 2rem; /* Adjust the font size as needed */
+    font-weight: bold;
+    background: linear-gradient(45deg, #ff6b6b, #f06595, #fcba03, #a2d2ff);
+    background-clip: text;
+    color: transparent;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    overflow: hidden; /* Hide the overflowing text */
+    border-right: 4px solid #25ce0b;
+    animation: blink-caret 0.75s step-end infinite; /* Blinking cursor animation */
+    
+  }
+  
+  @keyframes blink-caret {
+    from, to {
+      border-color: transparent;
+    }
+    50% {
+      border-color: #d81414;
+    }
+  }
+  

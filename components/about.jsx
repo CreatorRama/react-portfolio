@@ -2,6 +2,9 @@ import React from 'react';
 import background from '../assets/background.jpg';
 import downarrow from '../assets/down-arrow.png';
 import crystals from '../assets/crystals.jpg';
+import Typewriter from './TypeWriter.jsx';
+
+
 
 const About = () => {
     const scrollToNextSection = () => {
@@ -16,8 +19,15 @@ const About = () => {
             <div className="about">
                 <img src={background} alt="Background" className="background-image" />
                 <div className="overlay">
-                    <h1 className="title">AMAN PANDEY</h1>
-                    <h2 className="title">FrontEnd Developer</h2>
+                <Typewriter
+  text={[
+    'FrontEnd Developer.',
+  ]}
+  typeSpeed={200}
+  backSpeed={200}
+  loop
+/>
+
                     <a href="#nextSection" className="scroll-button" onClick={scrollToNextSection}>
                         <img src={downarrow} alt="Scroll Down" height={89} />
                     </a>
